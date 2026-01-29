@@ -49,7 +49,7 @@ git submodule add https://github.com/uechan16/ClaudeMultiAgent.git
 
 ```bash
 git clone https://github.com/uechan16/ClaudeMultiAgent.git
-cd claude-multi-agent
+cd ClaudeMultiAgent
 ```
 
 ## 使い方
@@ -59,7 +59,7 @@ cd claude-multi-agent
 親リポジトリのルートで実行：
 
 ```bash
-./claude-multi-agent/start-ai-team.sh
+./ClaudeMultiAgent/start-ai-team.sh
 ```
 
 起動後、3つのtmuxセッションが作成されます：
@@ -70,7 +70,7 @@ cd claude-multi-agent
 ### スタッフの初期化
 
 ```bash
-./claude-multi-agent/initialize-agents.sh
+./ClaudeMultiAgent/initialize-agents.sh
 ```
 
 ### 画面への接続
@@ -118,7 +118,7 @@ tmux kill-server
 親リポジトリ/                      ← 作業ディレクトリ
 ├── .claude/skills/                ← Skills保存先
 ├── src/                           ← プロジェクトのソースコード
-└── claude-multi-agent/            ← このsubmodule
+└── ClaudeMultiAgent/            ← このsubmodule
     ├── start-ai-team.sh           # 起動スクリプト
     ├── initialize-agents.sh       # 初期化スクリプト
     ├── send-message.sh            # メッセージ送信
@@ -237,7 +237,7 @@ tmux ls
 
 # 再起動
 tmux kill-server
-./claude-multi-agent/start-ai-team.sh
+./ClaudeMultiAgent/start-ai-team.sh
 ```
 
 ### メッセージが送信されない
