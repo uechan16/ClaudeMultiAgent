@@ -42,13 +42,13 @@ Claude Codeを使った階層型マルチエージェントシステムです。
 
 ```bash
 cd your-project
-git submodule add https://github.com/your-repo/claude-multi-agent.git
+git submodule add https://github.com/uechan16/ClaudeMultiAgent.git
 ```
 
 ### 2. 単独で使用
 
 ```bash
-git clone https://github.com/your-repo/claude-multi-agent.git
+git clone https://github.com/uechan16/ClaudeMultiAgent.git
 cd claude-multi-agent
 ```
 
